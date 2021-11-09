@@ -24,3 +24,14 @@ var multiply = function(num1, num2) {
     
     return res.join("")
 };
+
+
+//Alternate solution::
+//let ct={}
+//    for(let i=0;i<n;i++){
+//        
+//         if(ct[t[i]] >= 0 ){
+//            return [ct[t[i]],i]   
+//        }
+//        ct[target -t[i]]=i
+//    }
